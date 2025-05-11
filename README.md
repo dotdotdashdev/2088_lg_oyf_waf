@@ -56,7 +56,8 @@ The components of this solution can be grouped into the following areas of prote
 
 - [AWS Command Line Interface](https://aws.amazon.com/cli/)
 - Python 3.12
-- Poetry
+- Poetry (current lock files are built on 1.8.4)
+- Boto3
 
 ## Build
 
