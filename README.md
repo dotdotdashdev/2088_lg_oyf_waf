@@ -104,7 +104,7 @@ The assets in buckets must be accessible by your account.
 
 ```
 export TEMPLATE_OUTPUT_BUCKET=<YOUR_TEMPLATE_OUTPUT_BUCKET> # Name of the global bucket where CloudFormation templates are stored
-export DIST_OUTPUT_BUCKET=<YOUR_DIST_OUTPUT_BUCKET> # Name for the regional bucket where regional assets are stored
+export DIST_OUTPUT_BUCKET=<YOUR_DIST_OUTPUT_BUCKET> # Name for the regional bucket where regional assets are stored <- this is wrong, needs to be the same as YOUR_TEMPLATE_OUTPUT_BUCKET because CF appends the region
 export SOLUTION_NAME=<SOLUTION_NAME> # name of the solution.
 export VERSION=<VERSION> # version number for the customized code
 export AWS_REGION=<AWS_REGION> # region where the solution is deployed
